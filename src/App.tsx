@@ -3,7 +3,7 @@ import "./App.css";
 import { Head } from "@impalajs/react/head";
 
 interface AppProps {
-  title: string;
+  title: "OpenAI Chatbot";
 }
 
 export const App: React.FC<React.PropsWithChildren<AppProps>> = ({
